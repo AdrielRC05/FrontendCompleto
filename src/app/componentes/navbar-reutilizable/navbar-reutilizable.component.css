@@ -43,7 +43,7 @@ body {
 	
 	#progressbar li {
 		list-style-type: none;
-		color: black;
+		color: white;
 		text-transform: uppercase;
 		font-size: 9px;
 		width:var(--espacio);
