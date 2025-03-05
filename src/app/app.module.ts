@@ -14,6 +14,7 @@ import { RallysComponent } from './componentes/rallys/rallys.component';
 import { PilotosComponent } from './componentes/pilotos/pilotos.component';
 import { CopilotosComponent } from './componentes/copilotos/copilotos.component';
 import { RallyPilotosComponent } from './componentes/pilotosDelRally/rally-pilotos.component';
+import { NavbarReutilizableComponent } from './componentes/navbar-reutilizable/navbar-reutilizable.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { RallyPilotosComponent } from './componentes/pilotosDelRally/rally-pilot
     RallysComponent,
     PilotosComponent,
     CopilotosComponent,
-    RallyPilotosComponent
+    RallyPilotosComponent,
+    NavbarReutilizableComponent
   ],
   imports: [
     BrowserModule,
